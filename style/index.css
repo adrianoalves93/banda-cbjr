@@ -20,7 +20,14 @@ nav ul {
     font-family: 'Kirang Haerang', cursive;
     font-size: 1.8rem;
     color: white;
+    cursor: pointer;
     
+}
+
+.item:hover {
+    color: brown;
+    font-size: 3rem;
+    transition: 1s;
 }
 
 .item:nth-child(1){
@@ -36,9 +43,22 @@ nav ul {
     font-family: 'Kirang Haerang', cursive;
 }
 
+header h1:hover {
+    transition: 1s;
+    color: brown;
+    cursor: pointer;
+}
+
 .container{
     display: flex;
+    cursor: pointer;
 }
+
+.container:hover{
+    flex-direction: row-reverse;
+ }
+
+
 
 .containerText{
     width: 50%;
@@ -95,9 +115,11 @@ nav ul {
 
 .container2{
     display: flex;
-    background: black;
+    background-image: url(./imagens/show.jpg);
     flex-wrap: wrap;
     text-align: center;
+    background-color: #0000004d;
+    background-blend-mode: multiply;
 }
 
 .container2 h2 {
@@ -242,8 +264,89 @@ footer p a {
     text-decoration: unset;
 }
 
+@media screen and (max-width: 480px) {
+    header{
+        background-image: url(./imagens/chorao-mobile.jpg);
+        background-color: #0000008f;;
+        background-blend-mode: multiply;
+    }
 
+    nav ul{
+        flex-direction: column;
+        padding: unset;
+    }
 
-/* font-family: 'Barlow', sans-serif;
+    .item{
+        flex-basis: 3rem;
+    }
 
-font-family: 'Fraunces', serif; */
+    header h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .container, .container1{
+        flex-direction: column;        
+    }
+
+    .container2{
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .containerText{
+        width:100%;
+        text-align: center;
+    }
+    .container-text{
+        text-align: center;
+        margin: unset;
+        padding: 1.2rem;
+    }
+
+.container-text h2{
+    text-align: center;
+}
+
+.container-img{
+    width:unset;
+    margin: 1rem 0;
+}
+
+.video-1, .video-2 {
+    width:unset;
+}
+
+.descricao {
+    padding: 2rem 3rem;
+}
+
+.div-albuns{
+    flex-direction: column;
+    padding: 1.2rem;
+    margin: unset;
+}
+
+.albuns{
+    width: unset;
+    margin-bottom: 1.4rem;
+}
+
+.link-nav{
+    margin: unset;
+}
+
+.link-nav a{
+    margin: 0 1rem;
+}
+
+.rede-social{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.rede-social a svg {
+    margin: 0rem 3rem;
+}
+    }
+
