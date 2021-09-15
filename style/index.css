@@ -120,6 +120,7 @@ header h1:hover {
     text-align: center;
     background-color: #0000004d;
     background-blend-mode: multiply;
+    background-size: cover;
 }
 
 .container2 h2 {
