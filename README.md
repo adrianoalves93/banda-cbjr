@@ -4,8 +4,8 @@
 
 ### Links
 
-- URL da solução: [Adicionar URL da solução aqui] (https://github.com/adrianoalves93/banda-cbjr)
-- URL do site ativo: [Adicionar URL do site ativo aqui] (https://banda-cbjr.netlify.app/)
+- URL da solução: [Adicionar URL da solução aqui] [https://github.com/adrianoalves93/banda-cbjr]
+-  URL do site ativo: [Adicionar URL do site ativo aqui] (https://banda-cbjr.netlify.app/)
 
 
 ### Construído com
